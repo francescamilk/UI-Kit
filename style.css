@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  height: 100vh;
+  background-color: #f7a3bd;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+ 
+button {
+  border: none;
+}
+
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all .3s ease 0s;
+  opacity: 1;
+}
+
+.btn:hover {
+  opacity: .8;
+  transform: translateY(-2px);
+}
+
+.button:hover {
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+.btn-full {
+  background-color: #000;
+  color: #fff;
+  border: .8px #000 solid;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border: .8px #000 solid;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+  border: .8px #fff solid;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 8%;
+  box-shadow: 0 3px 20px #aaa;
+  background-color: #fff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn li {
+  padding: 18px;
+}
+
+.nav-btn li:last-child {
+  padding-right: 0px;
+}
+
+#logo {
+  width: 60px;
+  cursor: pointer;
+}
