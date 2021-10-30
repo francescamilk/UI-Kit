@@ -152,6 +152,7 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  margin-bottom: 10px;
 }
 
 .header-hero {
@@ -226,6 +227,7 @@ header {
   font-weight: 800;
   text-transform: uppercase;
   color: #fff;
+  padding: 10px;
 }
 
 .brand-card-copy p {
