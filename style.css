@@ -125,12 +125,13 @@ nav {
   align-items: center;
 }
 
-.nav-links li {
+.nav-links li a {
   padding-left: 18px;
+  color: #fff;
 }
 
 .nav-links li a:hover {
-  color: #fff;
+  color: #000;
 }
 
 #logo {
