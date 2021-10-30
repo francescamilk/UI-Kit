@@ -84,8 +84,8 @@ span {
 }
 
 .btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 5px 5px 10px rgba(100, 100, 100, 0.3);
+  transform: translateY(-1.5px);
+  box-shadow: 5px 5px 10px rgba(90, 90, 90, 0.3);
 }
 
 .btn-full {
@@ -96,7 +96,7 @@ span {
 }
 
 .btn-full:hover {
-  box-shadow: 5px 5px 10px rgba(50, 50, 50, 0.4);
+  box-shadow: 5px 5px 10px rgba(40, 40, 40, 0.4);
 }
 
 .btn-ghost {
