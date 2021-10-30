@@ -160,7 +160,7 @@ header {
   background-position: bottom;
   background-repeat: no-repeat;
   width: 60%;
-  height: 100vh;
+  height: 95vh;
 }
 
 .header-copy {
@@ -272,4 +272,8 @@ header {
 
 #dribbble:hover {
   color: #ea4c89;
+}
+
+#heart {
+  color: #fff;
 }
