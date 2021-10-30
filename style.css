@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #f7a3bd;
+  background-color: #f2a6b8;
 }
 
 html {
@@ -33,6 +33,7 @@ button {
 #body {
   box-shadow: 0px -5px 42px rgba(100, 100, 100, 0.2);
   margin-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 /* TYPOGRAPHY */
@@ -115,7 +116,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 85px;
   box-shadow: 0 3px 20px #aaa;
   /* background-color: #fff; */
   box-shadow: 0px -5px 42px rgba(100, 100, 100, 0.2);
@@ -152,6 +153,10 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  background-image: url(images/milk-mockup.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .header-copy {
@@ -197,7 +202,7 @@ header {
 .brand-cards {
   display: flex;
   justify-content: space-between;
-  padding: 10px 17px 30px 7px;
+  padding: 10px 14px 30px 5px;
 }
 
 .brand-card {
@@ -226,8 +231,10 @@ header {
 
 /* FOOTER */
 .footer {
-  height: 130px;
+  height: 120px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .social-icons {
