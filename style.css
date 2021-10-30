@@ -147,16 +147,19 @@ nav {
 
 /* HEADER */
 header {
-  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+}
+
+.header-hero {
   background-image: url(images/milk-mockup.png);
-  background-size: contain;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
+  width: 60%;
+  height: 100vh;
 }
 
 .header-copy {
@@ -235,6 +238,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 3px;
 }
 
 .social-icons {
