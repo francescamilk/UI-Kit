@@ -129,6 +129,10 @@ nav {
   padding-left: 18px;
 }
 
+.nav-links li a:hover {
+  color: #fff;
+}
+
 #logo {
   width: 55px;
   cursor: pointer;
@@ -155,7 +159,7 @@ header {
 
 .header-copy h3 {
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 2px;
 }
 
@@ -163,6 +167,11 @@ header {
   line-height: 32px;
   font-weight: 300;
   margin-top: 20px;
+  color: #fff;
+}
+
+.header-copy span {
+  color: #fff;
 }
 
 .header-btn {
