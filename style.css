@@ -15,7 +15,9 @@ html {
   min-height: 100vh;
 }
 
-a {
+a,
+a:hover {
+  color: #000;
   text-decoration: none;
 }
 
@@ -28,13 +30,13 @@ button {
 }
 
 /* TYPOGRAPHY */
-h1 {
+h1,
+h2 {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-family: 'Yeseva One', cursive;
 }
 
-h2,
 h3,
 h4,
 h5,
@@ -43,6 +45,7 @@ p,
 a,
 span {
   font-family: 'Roboto', sans-serif;
+  color: #000;
 }
 
 .panorama {
@@ -54,7 +57,8 @@ span {
 
 /* LAYOUT */
 .container {
-  padding: 0 10%;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 
@@ -67,14 +71,14 @@ span {
   width: 120px;
   height: 40px;
   border-radius: 50px;
-  box-shadow: -1px 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
   font-family: 'Roboto', sans-serif;
   transition: all .3s ease 0s;
 }
 
 .btn:hover {
   transform: translateY(-1px);
-  box-shadow: -1px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .btn-full {
@@ -101,30 +105,26 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0 10%;
   box-shadow: 0 3px 20px #aaa;
   background-color: #fff;
   box-shadow: 0px -5px 42px rgba(0, 0, 0, 0.1);
   position: absolute;
   width: 100%;
   z-index: 1001;
+  padding: 0 10%;
 }
 
-.nav-btn {
+.nav-links {
   display: flex;
   align-items: center;
 }
 
-.nav-btn li {
-  padding: 18px;
-}
-
-.nav-btn li:last-child {
-  padding-right: 0px;
+.nav-links li {
+  padding-left: 18px;
 }
 
 #logo {
-  width: 60px;
+  width: 55px;
   cursor: pointer;
 }
 
@@ -135,18 +135,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  top: 0;
   z-index: 100;
 }
 
+.header-copy {
+  padding-top: 25px;
+}
+
 .header-copy h1 {
-  font-size: 48px;
+  font-size: 52px;
   margin: 10px 0 5px;
 }
 
 .header-copy h3 {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -155,4 +157,32 @@ header {
   line-height: 32px;
   font-weight: 300;
   margin-top: 20px;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+}
+
+.header-btn li {
+  padding: 39px 20px 20px 2px;
+}
+
+/* BRAND CARDS */
+.brand-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 17px 30px 7px;
+}
+
+.brand-card {
+  width: 300px;
+  text-align: center;
+  box-shadow: 7px 8px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.brand-card-copy {
+  min-height: 200px;
 }
